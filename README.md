@@ -33,7 +33,7 @@ Download the following and place them as indicated:
 
 2. **Additional FSC-147 data & split** [FSC147\_addition](https://drive.google.com/file/d/1ahkCdFDeUIWEmFEzhaqz_AeaRN1qEvvY/view?usp=drive_link) → put under `DATA_folder`
 
-3. **[Pretrained weights]()** → put in the repository **root directory**
+3. **[Pretrained weights](https://github.com/Amordia/GCA-SUNet/releases/download/Release/gcasunet.pth)** → put in the repository **root directory**
 
 4. Update the data path: open `utils/FSC147_384.py` and replace the value of `DATA_PATH` on line 17 with the absolute path to your `DATA_folder`.
 ### 

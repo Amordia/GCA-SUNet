@@ -1,0 +1,11 @@
+MODEL:
+  TYPE: swin
+  NAME: GCASUNet
+  DROP_PATH_RATE: 0.4
+  PRETRAIN_CKPT: "./gcasunet.pth"
+  SWIN:
+    EMBED_DIM: 128
+    DEPTHS: [ 2, 2, 8, 2 ]
+    DECODER_DEPTHS: [ 2, 2, 2, 1]
+    NUM_HEADS: [ 4, 8, 16, 32 ]
+    WINDOW_SIZE: 12
